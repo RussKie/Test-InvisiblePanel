@@ -28,7 +28,7 @@ namespace GitUI
             Application.SetCompatibleTextRenderingDefault(false);
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
 
-            Application.Run(new FormPush());
+            Application.Run(new FormCreateBranch());
         }
     }
 }

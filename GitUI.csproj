@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <UseWindowsForms>true</UseWindowsForms>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFrameworks>net48;net5.0-windows;net6.0-windows;net7.0-windows</TargetFrameworks>
     <OutputType>WinExe</OutputType>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <!--<ApplicationIcon>..\Logo\git-extensions-logo.ico</ApplicationIcon>-->
+    <langversion>latest</langversion>
     <StartupObject />
 
     <Prefer32bit>true</Prefer32bit>

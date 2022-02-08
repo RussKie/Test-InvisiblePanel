@@ -26,8 +26,10 @@ namespace GitUI
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.SetHighDpiMode(HighDpiMode.SystemAware);
 
+#if NETCOREAPP3_1_OR_GREATER
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
+#endif
             Application.Run(new FormCreateBranch());
         }
     }
